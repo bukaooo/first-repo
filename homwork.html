@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box  ;
+        }
+        .ota{
+         width: 100%;
+         height: 100vh;
+         background-color: aqua;
+        }
+    .div0{
+        width: 100%;
+        height: 100vh;
+        /* background-color: red; */
+        background-image: url(https://i.pinimg.com/originals/65/bc/77/65bc77daa695d7950b1a155db4d15844.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+        nav{
+            width: 100%;
+            height: 10%;
+            background:rgba(255, 217, 0, 0);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+        }
+        nav ul li{
+            margin: 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        ul li a:hover{
+            color: rgb(131,49,228) ;
+        }
+        nav ul li img{
+            width: 15%;
+        }
+        #btn{
+            width: 100px;
+            height: 30px;
+            /* background-color: orange; */
+            border: none;
+            border-radius: 10px;
+            color: white;
+            background-color: transparent;
+            border: 2px solid white;
+        }
+        #btn:hover{
+            color: black;
+            box-shadow: 0 0 10px grey inset;
+            background-color: orange ;
+        }
+        .banner{
+            width: 100%;
+            height: 90vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+        }
+        .banner1{
+            width: 70%;
+            height: 50%;
+            margin: 25% auto;
+            text-align: center;
+            color: white;
+        }
+        .banner1 h2{
+            font-size: 40px;
+        }
+        .banner1 h1{
+            font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ota">
+        <div class="div0">
+            <nav>
+                <ul>
+                    <li><img src="https://gilded-sherbet-5328a3.netlify.app/ocean.png" alt=""></li>
+                </ul>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Ocean</a></li>
+                <li><a href="#">Help</a></li>
+                <li><button id="btn"> Sing in</button></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner1">
+                <h2>Welcome to the </h2>
+                <h1>Scooba Life</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, dolor?</p>
+            </div>
+        </div>
+        </div>
+        <h1 id="servise" style="text-align: center; padding: 30px;">servise</h1>
+        <div class="servise">
+            <div class="servise_card">
+                <div class="card_img">
+                    <img src="https://img.alicdn.com/imgextra/i3/6000000004900/O1CN01wEDSxw1m4FMNGPEI4_!!6000000004900-0-tbvideo.jpg" alt="">
+                </div>
+                <div class="card_text">
+                    <button>Ocean</button>
+                </div>
+            </div>
+            <div class="servise_card">
+                <div class="card_img"><img src="https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/21/2019/04/cleaning-up-our-seas-diving-credit-tor-johnson.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
